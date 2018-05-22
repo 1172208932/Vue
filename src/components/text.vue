@@ -1,12 +1,22 @@
 <template>
-    <h1>这是测试组件</h1>    
+    <div>
+        <h1 class="aa">hello world</h1>
+        <h1>{{msg}}</h1>
+        <router-view></router-view>
+    </div>
 </template>
 <script>
-export default {
-    
-}
+    export default{
+        data ()
+        {
+            return{
+                msg:'这是一个路由'
+            }
+        }
+  }
 </script>
-
-<style scoped>
-
+<style>
+.aa{
+    color: yellowgreen
+}
 </style>
