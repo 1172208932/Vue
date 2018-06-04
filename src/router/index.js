@@ -5,6 +5,8 @@ import Text from '@/components/text'
 import Text1 from '@/components/Text1'
 import Text2 from '@/components/text2'
 import Texturl from '@/components/texturl'
+import Counter from '@/components/counter'
+
 
 Vue.use(Router)
 
@@ -38,6 +40,10 @@ export default new Router({
         {
           path:'/home',
           redirect:'/'
+        },
+        {
+          path:'/counter',
+          component:Counter
         }
       ]
     }

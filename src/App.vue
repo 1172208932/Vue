@@ -7,6 +7,7 @@
     <router-link to="/text/text2">子路油2</router-link>
     <router-link to="/texturl/5/zhangsan">url</router-link>
     <router-link to="/home">重定向</router-link>
+    <router-link to="/counter">计算器</router-link>
     <router-view/>
   </div>
 </template>
